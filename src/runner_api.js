@@ -1,6 +1,6 @@
 // In production runner api always will be available at /api at the same domain as game.
 // In dev - vite proxing requests to runner(see vite.config.js).
-const API_URL = "/api"
+const API_URL = "https://217.154.193.204/api"
 
 class UnsuccessfulResponseError extends Error {
     constructor(response) {
